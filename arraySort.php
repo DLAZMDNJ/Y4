@@ -1,7 +1,7 @@
 /**
 * 二位数组排序
 *
-* author @孙涛 sunta0@ooutlook.com
+* author @孙涛 sunta0@outlook.com
 */
 
 
