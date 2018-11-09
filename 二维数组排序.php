@@ -1,11 +1,11 @@
+<?php
+
 /**
 * 二位数组排序
 *
 * author @孙涛 sunta0@outlook.com
 */
 
-
-<?php
 $data = array(
   array(
     'id' => 698,
