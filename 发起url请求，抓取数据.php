@@ -46,5 +46,4 @@ class A
 	    curl_close($ch);
 	    return $con;
 	}
-
 }
