@@ -2,8 +2,6 @@
 
 class A
 {
-
-
 	public function wseLogin(Request $req)
     {
         $url = 'https://app.wse.com.cn/hmm/apis/login';
