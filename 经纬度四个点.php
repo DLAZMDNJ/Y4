@@ -3,14 +3,14 @@ namespace dandan\helpers;
 
 /**
  * 对经纬度信息进行处理类
- * @author 苏demo
+ * @author  
  */
 class RangeHelper{
     
     const EARTH_RADIUS = 6371;  //地球半径，平均半径为 6371km
     
     /**
-     *计算某个经纬度的周围某段距离的正方形的四个点
+     * 计算某个经纬度的周围某段距离的正方形的四个点
      *
      *@param lng float 经度
      *@param lat float 纬度
