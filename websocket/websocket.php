@@ -18,7 +18,8 @@ class SocketService
     public function service(){
         //获取tcp协议号码。
         $tcp = getprotobyname("tcp");
-        $sock = socket_create(AF_INET, SOCK_STREAM, $tcp);
+		//创建一个socket套接字 参数1：网络协议，参数2：套接字流，参数3：protocol协议
+        $sock = socket_create(AF_INET, SOCK_STREAM, $tcp);//返回值：一个套接字，或者是false，参数错误发出E_WARNING警告
         socket_set_option($sock, SOL_SOCKET, SO_REUSEADDR, 1);
         if($sock < 0)
         {
