@@ -2,7 +2,7 @@
  
 class SocketService
 {
-    private $address  = '0.0.0.0';
+    private $address  = '127.0.0.1';
     private $port = 8010;
     private $_sockets;
     public function __construct($address = '', $port='')
