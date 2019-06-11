@@ -10,7 +10,7 @@
 - 建立软连接  
 `ln -s /usr/local/src/nodejs/bin/npm /usr/local/bin/`  
 `ln -s /usr/local/src/nodejs/bin/node /usr/local/bin/`  
-此时执行`node --version` 和 `npm -V` 可以看到版本信息了
+此时执行`node --version` 和 `npm -V` 可以看到版本信息了.
 - 安装脚手架vue-cli，将来webpack使用  
 `npm install -g vue-cli`  
 安装之后需要建立软连接，不然提示没有vue命令  
