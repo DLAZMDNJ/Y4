@@ -1,0 +1,19 @@
+nginx:
+    build: ./nginx
+    volumes: 
+        - /root/dockerfiles/nginx/html:/usr/share/nginx/html
+        - /root/dockerfiles/nginx/conf/nginx.conf:/etc/nginx/nginx.conf
+        - /root/dockerfiles/nginx/conf/conf.d:/etc/nginx/conf.d
+        - /root/dockerfiles/nginx/logs:/var/log/nginx
+        - /manager/project:/manager/project
+        - /root/dockerfiles/nginx/www:/usr/share/nginx/www
+    ports: 
+        - "8081:80"
+    links: 
+        - php
+php:
+    build: ./php
+    volumes:
+        - /manager/project:/manager/project
+        - /root/dockerfiles/nginx/www:/usr/share/nginx/www 
+        

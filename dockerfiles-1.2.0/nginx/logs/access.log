@@ -1,0 +1,5 @@
+106.2.125.215 - - [12/Jun/2019:01:48:32 +0000] "\x04\x01\x00\x00\x00\x00\x00\x00\x00" 400 157 "-" "-"
+106.2.125.215 - - [12/Jun/2019:01:48:32 +0000] "\x05\x03\x00\x01\x02" 400 157 "-" "-"
+106.2.125.215 - - [12/Jun/2019:01:48:32 +0000] "GET http://baidu.com/ HTTP/1.1" 200 612 "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0)"
+111.200.242.26 - - [12/Jun/2019:01:51:21 +0000] "GET / HTTP/1.1" 200 612 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+172.168.10.100 - - [18/Jun/2019:07:21:09 +0000] "GET / HTTP/1.1" 200 88524 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36" "-"

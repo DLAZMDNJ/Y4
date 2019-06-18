@@ -1,0 +1,8 @@
+2019/06/15 06:57:59 [error] 6#0: *1 directory index of "/usr/share/nginx/www/" is forbidden, client: 172.168.10.100, server: localhost, request: "GET / HTTP/1.1", host: "172.168.50.40:8081"
+2019/06/15 06:58:50 [warn] 6#0: *1 using uninitialized "path_info" variable, client: 172.168.10.100, server: localhost, request: "GET /index.php HTTP/1.1", host: "172.168.50.40:8081"
+2019/06/15 06:58:54 [warn] 6#0: *1 using uninitialized "path_info" variable, client: 172.168.10.100, server: localhost, request: "GET /index.php HTTP/1.1", host: "172.168.50.40:8081"
+2019/06/15 07:06:42 [warn] 1#0: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/06/15 07:07:02 [warn] 6#0: *1 using uninitialized "path_info" variable, client: 172.168.10.100, server: localhost, request: "GET / HTTP/1.1", host: "172.168.50.40:8081"
+2019/06/18 06:08:17 [warn] 1#0: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/06/18 07:18:09 [emerg] 1#1: open() "/etc/nginx/vhost/my_params/api_wx.conf" failed (2: No such file or directory) in /etc/nginx/conf.d/test-php.conf:36
+2019/06/18 07:21:09 [warn] 8#8: *2 using uninitialized "path_info" variable, client: 172.168.10.100, server: localhost, request: "GET / HTTP/1.1", host: "172.168.50.40:8081"
