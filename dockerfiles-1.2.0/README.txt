@@ -1,9 +1,9 @@
 ###############  说明   ################
 
 获取本文件并一键部署命令：
-wget http://pic.klagri.com.cn/env/dockerfiles-1.2.0.tar.gz && tar zxvf dockerfiles-1.2.0.tar.gz && mv dockerfiles-1.2.0 dockerfiles && cd dockerfiles && /bin/bash init.sh
+    wget http://pic.klagri.com.cn/env/dockerfiles-1.2.0.tar.gz && tar zxvf dockerfiles-1.2.0.tar.gz && mv dockerfiles-1.2.0 dockerfiles && cd dockerfiles && /bin/bash init.sh
 
-本目录中  docker-compose.yml  init.sh  nginx  php
+本目录中包含四个子项  docker-compose.yml  init.sh  nginx  php
 
 1、其中init.sh 为初始化脚本，运行第一次后，无需使用。
 如果你是通过命令行一键安装  wget http://pic.klagri.com.cn/env/dockerfiles-1.x.0.tar.gz && tar zxvf dockerfiles-1.x.0.tar.gz && mv dockerfiles-1.x.0 dockerfiles && cd dockerfiles && /bin/bash init.sh 则无需运行此文件, 通过8081端口访问phpinfo页面，如正常访问则部署成功
@@ -27,4 +27,12 @@ wget http://pic.klagri.com.cn/env/dockerfiles-1.2.0.tar.gz && tar zxvf dockerfil
 	php容器为    alpine + php7.0   镜像文件大小 70.7M
     1.2.0  ----  2019-06-18
 	nginx容器的基础镜像不再使用centos，使用alpine + nginx1.17     镜像大小为20.5M，加快了镜像构建速度，减少镜像体积 
+	
+补充说明：
+	如本脚本提供的php等软件版本与你所需不符，请自行更改 Dockerfile 文件中的软件源为你需要的版本
+	另附docker官方提供的nginx 和 php 镜像源
+	nginx：
+		https://hub.docker.com/_/nginx/
+	php：
+		https://hub.docker.com/_/php/
 	
