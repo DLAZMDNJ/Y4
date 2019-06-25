@@ -1,4 +1,6 @@
-# base image
+# 此镜像为v1.1.0 版本使用，nginx 是基于 centos 构造，可正常使用。
+
+# base image 
 FROM centos
 
 # MAINTAINER
