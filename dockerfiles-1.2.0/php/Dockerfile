@@ -1,9 +1,12 @@
 # base from
 FROM php:7.1-fpm-alpine3.9
+
 # 管理者
 MAINTAINER 271648298@qq.com
+
 # 安装依赖
 RUN apk add  dpkg-dev dpkg g++ gcc zlib-dev libc-dev re2c file pkgconf
+
 # 安装 memcache 和 redis 扩展
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories \
     && apk update \

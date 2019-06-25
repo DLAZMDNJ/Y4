@@ -29,7 +29,7 @@ yum -y install docker-ce
 # 启动docker后台服务
 sudo systemctl start docker
 
-# 配置阿里云镜像加速器（必配）
+# 配置阿里云镜像加速器（必配, 这里加速器地址仅用于展示，无加速功能，请使用自己的阿里云加速器，教程见百度，加速器免费）
 mkdir /etc/docker
 sudo tee /etc/docker/daemon.json <<-'EOF'
 {"registry-mirrors": ["https://6y46612t.mirror.aliyuncs.com"]}
